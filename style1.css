@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://img.freepik.com/premium-vector/cute-smiling-little-girl-walking-clouds-night-sky-with-open-book-vector-illustration_178650-25953.jpg);
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat;
+}
+h1{
+    color: antiquewhite;
+    font-family: 'Lobster', cursive;
+}
+.first{
+    border: wheat solid 10px;
+    border-radius: 10%;
+    border-style: dotted;
+    display: inline-block;
+    width: 150px;
+    color: antiquewhite;
+    border-style:d;
+    border:antiquewhite solid 2px;
+    padding: 2%;
+   
+}
+.box{
+    border: wheat solid 2px;
+    border-radius: 10%;
+    border-style: dotted;
+    display: inline-block;
+    vertical-align: top right;
+    width: 100px;
+    color: antiquewhite;
+    top: 0;
+    right: 0;
+    padding: 2%;
+   
+}
+li{
+    color: antiquewhite;
+}
+
+p{
+    color: antiquewhite;
+    margin-left: 10px;
+    text-align: justify;
+}
+.t{
+    
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chessboard</title>
+  <style>
+    .chessboard {
+      display: grid;
+      grid-template-columns: repeat(8, 50px);
+      grid-template-rows: repeat(8, 50px);
+      gap: 0;
+    }
+    .square {
+      width: 50px;
+      height: 50px;
+    }
+    .black {
+      background-color: rgb(156, 248, 142);
+    }
+    .white {
+      background-color: rgb(181, 159, 159);
+    }
+  </style>
+</head>
+<body>
+  <div class="chessboard" id="chessboard"></div>
+  <script src="st.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

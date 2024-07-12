@@ -1,0 +1,33 @@
+.card {
+    border: 4px solid #000; /* Bolder border */
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 1500px;
+}
+
+/* Optional additional styles for better appearance */
+p{
+    background-color: antiquewhite;
+    line-height: 30px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .card:hover {
+    transform: scale(1.03); /* Increase size on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  }
+  
+  
